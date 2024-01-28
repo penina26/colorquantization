@@ -43,10 +43,13 @@ To use KMeans to reduce the size of images with a small visual error.
 
 The results of the 16,32,64,128 and 256 color clusters in the image color quatization were obtained.We note that the size of the image is generally smaller than the original image. An incresea in the number of clusters increases the size of the reproduced image. As can be seen from the table and image visualizations above, a major advantage of color quantization is that the size of the RGB image is reduced, which greatly saves the storage space of the RGB image in the computer. When the computer processes the image, the RGB image with less memory can improve the processing speed and improve the research efficiency.
         
-** Image quality based on the number of clusters**
+**Image quality based on the number of clusters**
+
 ![images](kmeans_compression_comparison.png)
         
-Image sizes after compression
+**Image sizes after compression**
+
+
 ![compression](image_size.png)
         
 ## CONCLUSION
