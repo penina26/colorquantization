@@ -1,4 +1,4 @@
-# Image Color Quantization Application Based on K-Means for Social Impact in kenya
+# KMeans Image Color Quantization for Social Impact in kenya
 
 ##  Overview
 Images are an essential part of our digital world, used in everything from social media, education, healthcare to ecommerce websites.True-color images typically contain thousands of colors which makes storage, transmission, display and processing problematic. The  more images we use the more issues we face with website load times, storage space and bandwidth strains. This is where color quantization comes in.
@@ -44,10 +44,10 @@ To use KMeans to reduce the size of images with a small visual error.
 The results of the 16,32,64,128 and 256 color clusters in the image color quatization were obtained.We note that the size of the image is generally smaller than the original image. An incresea in the number of clusters increases the size of the reproduced image. As can be seen from the table and image visualizations above, a major advantage of color quantization is that the size of the RGB image is reduced, which greatly saves the storage space of the RGB image in the computer. When the computer processes the image, the RGB image with less memory can improve the processing speed and improve the research efficiency.
         
 ** Image quality based on the number of clusters**
-!(compression)[kmeans_compression_comparison.png]
+![images](kmeans_compression_comparison.png)
         
 Image sizes after compression
-!(compression)[image_size.png]
+![compression](image_size.png)
         
 ## CONCLUSION
 K-Means-based algorithms are applied to RGB coconut tree. In the experiment, the number of cluster centres was set to 16,32,64,128 and 256, respectively, and the experimental results were obtained. A comprehensive analysis of the results of experiment yielded the following conclusions: 
