@@ -1,4 +1,4 @@
-# KMeans Image Color Quantization for Social Impact in kenya
+# #  Color Quantization Using K-Means for Social Impact in Kenya's Images
 
 ##  Overview
 Images are an essential part of our digital world, used in everything from social media, education, healthcare to ecommerce websites.True-color images typically contain thousands of colors which makes storage, transmission, display and processing problematic. The  more images we use the more issues we face with website load times, storage space and bandwidth strains. This is where color quantization comes in.
@@ -7,8 +7,6 @@ Color quantization is the process of reducing the amount of color in an image in
 
 ## How K-means provides Image Quantization
 The color pixels in an image are represented by their RGB values, which each range from 0 to 255. Since each color band has 256=2⁸ settings, there are a total of 256 ⋅ 256 ⋅ 256 = 256³ = 2²⁴ ~ 17 million colors. To represent each of these colors for any pixel, computers need log₂(2²⁴) = 24 bits of storage space. If we use K-means to select 16 colors that we represent an entire image with, we only need log₂(16) = 4 bits. Therefore, by using K-means with k=16, we can compress the image size by a factor of 6!
-
-Now that we understand the theory, let us dive into some code and visualizations.
 
 ## Business Problem
 Kenya faces challenges with limited bandwidth, resouce-constrained healthcare and digital preservation of cultural heritage.These challenges stem partly from large file sizes produced from high resolution images.
