@@ -55,6 +55,8 @@ K-Means-based algorithms are applied to RGB coconut tree. In the experiment, the
 1. The color quantization algorithm based on K-Means has a better effect on the color quantization of images. 
 2. Colour quantization of RGB images can reduce image size. 
 
+Therefore, the result of using the color quantization algorithm based on K-Means has a smaller visual error and consumes less memory space. Color quantization not only enables RGB images to be reproduced in more low-performance devices, improves image usability, but also saves computer storage space. It also improves image processing and transmission over the internet efficiently.
+
         
         
         
