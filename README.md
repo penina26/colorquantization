@@ -1,4 +1,4 @@
-# #  Color Quantization Using K-Means for Social Impact in Kenya's Images
+# Color Quantization Using K-Means for Social Impact in Kenya's Images
 
 ##  Overview
 Images are an essential part of our digital world, used in everything from social media, education, healthcare to ecommerce websites.True-color images typically contain thousands of colors which makes storage, transmission, display and processing problematic. The  more images we use the more issues we face with website load times, storage space and bandwidth strains. This is where color quantization comes in.
